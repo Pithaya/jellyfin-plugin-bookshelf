@@ -1,17 +1,41 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jellyfin.Plugin.Bookshelf", "Jellyfin.Plugin.Bookshelf\Jellyfin.Plugin.Bookshelf.csproj", "{8D744D83-5403-4BA4-8794-760AF69DAC06}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jellyfin.Plugin.Bookshelf", "Jellyfin.Plugin.Bookshelf\Jellyfin.Plugin.Bookshelf.csproj", "{8D744D83-5403-4BA4-8794-760AF69DAC06}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jellyfin.Plugin.Bookshelf.Tests", "tests\Jellyfin.Plugin.Bookshelf.Tests\Jellyfin.Plugin.Bookshelf.Tests.csproj", "{269878C8-8633-4CED-BA6C-26F098F1481B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8D744D83-5403-4BA4-8794-760AF69DAC06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8D744D83-5403-4BA4-8794-760AF69DAC06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D744D83-5403-4BA4-8794-760AF69DAC06}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8D744D83-5403-4BA4-8794-760AF69DAC06}.Debug|x64.Build.0 = Debug|Any CPU
 		{8D744D83-5403-4BA4-8794-760AF69DAC06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D744D83-5403-4BA4-8794-760AF69DAC06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D744D83-5403-4BA4-8794-760AF69DAC06}.Release|x64.ActiveCfg = Release|Any CPU
+		{8D744D83-5403-4BA4-8794-760AF69DAC06}.Release|x64.Build.0 = Release|Any CPU
+		{269878C8-8633-4CED-BA6C-26F098F1481B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{269878C8-8633-4CED-BA6C-26F098F1481B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{269878C8-8633-4CED-BA6C-26F098F1481B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{269878C8-8633-4CED-BA6C-26F098F1481B}.Debug|x64.Build.0 = Debug|Any CPU
+		{269878C8-8633-4CED-BA6C-26F098F1481B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{269878C8-8633-4CED-BA6C-26F098F1481B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{269878C8-8633-4CED-BA6C-26F098F1481B}.Release|x64.ActiveCfg = Release|Any CPU
+		{269878C8-8633-4CED-BA6C-26F098F1481B}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8535D709-8B44-4319-A89A-8930EB2BA499}
 	EndGlobalSection
 EndGlobal
